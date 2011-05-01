@@ -1,8 +1,9 @@
 // define modules
-function router() {
-	console.log("Router is routin'");
+function route(pathname) {                                         
+    
+    console.log("About to route a request for " + pathname);
 
 }
 
 // export modules
-exports.router = router;
+exports.route = route;
